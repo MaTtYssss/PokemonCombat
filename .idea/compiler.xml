@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TpMock" />
         <module name="pokae-dracaufeu" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pokae-dracaufeu" target="14" />
-      <module name="TpMock" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
